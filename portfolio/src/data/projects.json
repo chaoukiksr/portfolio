@@ -1,0 +1,81 @@
+[
+  {
+    "id": 1,
+    "title": "LIMEDWORKS",
+    "date": "MARCH - JUNE • 2023",
+    "description": "Web application for managing the University of Bejaia Laboratory 'LIMED'.",
+    "problem": "Managers faced challenges in handling data, labs, and teams. LIMEDWORKS provided a solution to collect, format, and report every aspect of the laboratory.",
+    "features": [
+      "Real-time collaboration dashboard",
+      "Integrated task management system",
+      "Cross-platform synchronization",
+      "Advanced analytics and reporting"
+    ],
+    "stack": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Bootstrap",
+      "Express.js",
+      "MySQL"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Connect Four Game",
+    "date": "January • 2026",
+    "description": "A configurable Connect Four game featuring human and AI players, with advanced game state management and an intelligent opponent powered by the Minimax algorithm with adjustable depth.",
+    "problem": "Most board game implementations are limited to basic gameplay. This project delivers a complete and robust game system supporting multiple modes, intelligent decision-making, game persistence, and replayability, while enforcing strict rules and safeguards.",
+    "features": [
+      "Customizable board size (rows and columns) and choice of starting player",
+      "Multiple game modes: AI vs AI, Human vs AI, Human vs Human",
+      "Win detection with highlighted winning sequence",
+      "Turn management and real-time status display",
+      "Move history with undo and full replay navigation",
+      "AI player using Minimax algorithm with adjustable search depth",
+      "Visualization of Minimax decision scores and live thinking progress",
+      "Configuration management and game indexing",
+      "Storage of games, moves, and results with validation safeguards",
+      "Save, load, pause, and resume games"
+    ],
+    "stack": [
+      "Vue.js",
+      "JavaScript",
+      "Express.js",
+      "Node.js",
+      "MongoDB",
+      "REST API",
+      "Minimax Algorithm",
+      "HTML",
+      "CSS"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Employee Schedule Management Application",
+    "date": "January • 2026",
+    "description": "A web application dedicated to managing employees' schedules, allowing the creation of employee profiles and planning, modifying, and viewing their weekly work hours in a simple, centralized way.",
+    "problem": "Manual or scattered schedule management often causes errors, scheduling conflicts, and wasted time for teams. This application provides a clear and reliable tool to organize weekly schedules, improve internal communication, and ensure better visibility of work hours.",
+    "features": [
+      "Creation and management of employee profiles",
+      "Assignment of a weekly schedule per employee",
+      "Real-time modification and update of schedules",
+      "Clear weekly schedule visualization",
+      "Conflict management and schedule validation",
+      "Schedule history tracking",
+      "Real-time notifications when schedules change",
+      "Secure access based on roles (administrator, manager, employee)"
+    ],
+    "stack": [
+      "Vue.js",
+      "JavaScript",
+      "Express.js",
+      "Node.js",
+      "MongoDB",
+      "WebSocket",
+      "REST API",
+      "HTML",
+      "CSS"
+    ]
+  }
+]
