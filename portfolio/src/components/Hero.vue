@@ -17,7 +17,7 @@
                </a>
             </div>
             <div>
-               <img src="../assets/imgs/WhatsApp Image 2025-12-23 at 11.35.37.jpeg"
+               <img src="../assets/imgs/image.png"
                   alt="Profile" class="w-full h-auto rounded-lg shadow-lg">
             </div>
          </div>
