@@ -1,5 +1,5 @@
 <template>
-  <section class="min-h-screen flex items-center pt-20">
+  <section id="hero" class="min-h-screen flex items-center pt-20">
       <div class="max-w-6xl mx-auto px-8 w-full">
          <div class="grid md:grid-cols-2 gap-12 items-center">
             <div>
@@ -11,10 +11,10 @@
                   <span><a href="www.linkedin.com/in/kessouri-chaouki-5935b6225">LINKEDIN.</a></span>
                   
                </div>
-               <button
-                  class="bg-pink-100 text-gray-700 px-8 py-4 tracking-widest text-sm font-medium hover:bg-pink-200 transition">
+               <a href="/Kessouri_Chaouki_CV (2).pdf" download 
+                  class="inline-block bg-green-200 text-gray-700 px-8 py-4 tracking-widest text-sm font-medium hover:bg-green-300 transition">
                   DOWNLOAD CV
-               </button>
+               </a>
             </div>
             <div>
                <img src="../assets/imgs/WhatsApp Image 2025-12-23 at 11.35.37.jpeg"

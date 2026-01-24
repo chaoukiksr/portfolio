@@ -18,32 +18,10 @@
                   the scenes. I value clean code, logical thinking, and practical solutions, and I’m constantly
                   improving my skills through hands-on projects and continuous learning.
                </p>
-               <!-- <p class="text-gray-600 leading-relaxed">
-                  In tellus integer feugiat scelerisque varius morbi. Sit amet mattis vulputate enim nulla aliquet
-                  porttitor lacus luctus. In mollis nunc sed id semper risus in hendrerit gravida. Consectetur
-                  adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Orci nulla
-                  pellentesque dignissim enim sit amet.
-               </p> -->
+               
             </div>
            
          </div>
-
-         <!-- <div class="bg-pink-50 p-8 rounded-lg mb-12">
-            <div class="space-y-3">
-               <div>
-                  <p class="text-xs text-gray-500 tracking-wider mb-1">EMAIL</p>
-                  <p class="text-gray-700">johndoe@example.com</p>
-               </div>
-               <div>
-                  <p class="text-xs text-gray-500 tracking-wider mb-1">ROLE</p>
-                  <p class="text-gray-700">Frontend Developer</p>
-               </div>
-               <div>
-                  <p class="text-xs text-gray-500 tracking-wider mb-1">PHONE</p>
-                  <p class="text-gray-700">(+987) 987 654 321</p>
-               </div>
-            </div>
-         </div> -->
 
          
          <div class="signature text-gray-600">Chaouki KESSOURI</div>

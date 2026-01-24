@@ -26,7 +26,7 @@
                   </ul>
                </div>
                <div class="flex flex-wrap gap-2">
-                  <span v-for="t in props.stack" class="bg-gray-200 text-gray-600 px-4 py-2 rounded text-sm">{{t}}</span>
+                  <span v-for="t in props.stack" class="bg-green-100 text-white-600 px-4 py-2 rounded text-sm">{{t}}</span>
                </div>
             </div>
             </div>

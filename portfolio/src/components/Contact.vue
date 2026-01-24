@@ -11,13 +11,13 @@
                   <div>
                      <label class="block text-sm font-medium text-gray-700 mb-2">Name</label>
                      <input type="text" v-model="form.name"
-                        class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-pink-200 focus:border-pink-300 outline-none transition"
+                        class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-200 focus:border-green-300 outline-none transition"
                         placeholder="Your name">
                   </div>
                   <div>
                      <label class="block text-sm font-medium text-gray-700 mb-2">Email</label>
                      <input type="email" v-model="form.email"
-                        class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-pink-200 focus:border-pink-300 outline-none transition"
+                        class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-200 focus:border-green-300 outline-none transition"
                         placeholder="your.email@example.com">
                   </div>
                </div>
@@ -25,19 +25,19 @@
                <div>
                   <label class="block text-sm font-medium text-gray-700 mb-2">Subject</label>
                   <input type="text" v-model="form.subject"
-                     class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-pink-200 focus:border-pink-300 outline-none transition"
+                     class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-200 focus:border-green-300 outline-none transition"
                      placeholder="How can I help you?">
                </div>
 
                <div>
                   <label class="block text-sm font-medium text-gray-700 mb-2">Message</label>
                   <textarea rows="6" v-model="form.message"
-                     class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-pink-200 focus:border-pink-300 outline-none transition resize-none"
+                     class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-200 focus:border-green-300 outline-none transition resize-none"
                      placeholder="Tell me about your project..."></textarea>
                </div>
 
                <button @click="sendEmail" :disabled="isLoading"
-                  class="bg-pink-100 text-gray-700 px-8 py-4 tracking-widest text-sm font-medium hover:bg-pink-200 transition rounded-lg w-full md:w-auto disabled:opacity-50">
+                  class="bg-green-100 text-gray-700 px-8 py-4 tracking-widest text-sm font-medium hover:bg-green-200 transition rounded-lg w-full md:w-auto disabled:opacity-50">
                   {{ isLoading ? 'SENDING...' : 'SEND MESSAGE' }}
                </button>
 
