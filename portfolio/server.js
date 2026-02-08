@@ -1,9 +1,10 @@
 import express from 'express';
 import cors from 'cors';
 import dotenv from 'dotenv';
-import nodemailer from 'nodemailer';
-import path from 'path';
+import nodemailer from 'nodemailer'
+import  path from 'path'
 import { fileURLToPath } from 'url';
+import router from './src/routes/index.js'
 
 dotenv.config();
 
@@ -11,11 +12,10 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const app = express();
-
-// Middleware
 app.use(cors());
 app.use(express.json());
-
+app.use('/api/', router);
+// Middleware
 // Serve static files from the dist folder (built Vue app)
 app.use(express.static(path.join(__dirname, 'dist')));
 
@@ -63,10 +63,8 @@ app.get('/{*path}', (req, res) => {
   res.sendFile(path.join(__dirname, 'dist', 'index.html'));
 });
 
-app.get('/admin',(req,res) =>{
-  
-})
+
 const PORT = process.env.PORT || 5000;
-app.listen(PORT, '0.0.0.0', () => {
+app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
