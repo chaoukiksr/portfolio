@@ -268,10 +268,15 @@ const topTechnologies = computed(() => {
 
 // Methods
 async function fetchProjects() {
+   console.log('trying to fetch projects');
+   
    try {
-      const response = await fetch('/api/projects')
+      const response = await fetch('http://localhost:5000/api/projects')
       if (response.ok) {
          projects.value = await response.json()
+        console.log(projects.value);
+        
+         
          stats.value.totalProjects = projects.value.length
       }
    } catch (error) {

@@ -12,8 +12,7 @@ const routes = [
    {
       path:'/admin/login',
       component:LoginPageView,
-      name:'login',
-      meta:{requiresGuest:true}
+      name:'login'
    },
    {
       path:'/admin/dashboard',
@@ -27,5 +26,12 @@ const router = createRouter({
    history:createWebHistory(),
    routes
 })
-
+// router.beforeEach((to, from, next)=>{
+//    const admin_token = localStorage.getItem('admin_token')
+//    if(to.meta.requiresAuth && !admin_token){
+//       next({name:'login'});
+//    }else{
+//       next({name:'dashboard'});
+//    }
+// })
 export default router;
