@@ -1,7 +1,7 @@
 [
   {
-    "id": 3,
-    "title": "Employee Schedule Management Application",
+    "projectId": "3",
+    "title": "Employee Schedule Management Web Application",
     "date": "January • 2026",
     "description": "A web application dedicated to managing employees' schedules, allowing the creation of employee profiles and planning, modifying, and viewing their weekly work hours in a simple, centralized way.",
     "problem": "Manual or scattered schedule management often causes errors, scheduling conflicts, and wasted time for teams. This application provides a clear and reliable tool to organize weekly schedules, improve internal communication, and ensure better visibility of work hours.",
@@ -57,7 +57,7 @@
       "CSS"
     ]
   },
-   {
+  {
     "id": 1,
     "title": "LIMEDWORKS",
     "date": "MARCH - JUNE • 2023",
@@ -78,5 +78,4 @@
       "MySQL"
     ]
   }
-  
 ]

@@ -305,8 +305,8 @@ function editProject(project) {
 }
 
 async function saveProject() {
+
    const projectData = {
-      id:projects.value.length + 1,
       title: form.value.title,
       date: form.value.date,
       description: form.value.description,
@@ -316,7 +316,10 @@ async function saveProject() {
    }
 
    try {
-      const url = showEditModal.value ? `http://localhost:5000/api/projects/${editingId.value}` : 'http://localhost:5000/api/projects'
+      const id = showEditModal.value ? editingId.value :  null;
+      console.log(showAddModal.value);
+      
+      const url = id ? `http://localhost:5000/api/projects/${id}` : 'http://localhost:5000/api/projects'
       
       const method = showEditModal.value ? 'PUT' : 'POST'
 
