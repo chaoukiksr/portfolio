@@ -112,6 +112,13 @@
                            {{ tech }}
                         </span>
                      </div>
+            
+                     <div>
+                        <h4 class="text-sm font-semibold text-gray-700 mb-2 tracking-wider mt-5"> KEY FEATURES</h4>
+                        <ul class="text-gray-600 text-sm space-y-1">
+                           <li v-for="f in project.features">• {{ f }}</li>
+                        </ul>
+                     </div>
                   </div>
                </div>
 
@@ -299,6 +306,7 @@ function editProject(project) {
 
 async function saveProject() {
    const projectData = {
+      id:projects.value.length + 1,
       title: form.value.title,
       date: form.value.date,
       description: form.value.description,
@@ -308,9 +316,7 @@ async function saveProject() {
    }
 
    try {
-      const url = showEditModal.value 
-         ? `/api/projects/${editingId.value}` 
-         : '/api/projects'
+      const url = showEditModal.value ? `http://localhost:5000/api/projects/${editingId.value}` : 'http://localhost:5000/api/projects'
       
       const method = showEditModal.value ? 'PUT' : 'POST'
 
@@ -336,7 +342,7 @@ async function deleteProject(id) {
    if (!confirm('Are you sure you want to delete this project?')) return
 
    try {
-      const response = await fetch(`/api/projects/${id}`, {
+      const response = await fetch(`http://localhost:5000/api/projects/${id}`, {
          method: 'DELETE',
          headers: {
             'Authorization': `Bearer ${localStorage.getItem('admin_token')}`

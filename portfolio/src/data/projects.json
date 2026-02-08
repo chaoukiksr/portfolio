@@ -1,23 +1,30 @@
 [
   {
-    "id": 1,
-    "title": "LIMEDWORKS",
-    "date": "MARCH - JUNE • 2023",
-    "description": "Web application for managing the University of Bejaia Laboratory 'LIMED'.",
-    "problem": "Managers faced challenges in handling data, labs, and teams. LIMEDWORKS provided a solution to collect, format, and report every aspect of the laboratory.",
+    "id": 3,
+    "title": "Employee Schedule Management Application",
+    "date": "January • 2026",
+    "description": "A web application dedicated to managing employees' schedules, allowing the creation of employee profiles and planning, modifying, and viewing their weekly work hours in a simple, centralized way.",
+    "problem": "Manual or scattered schedule management often causes errors, scheduling conflicts, and wasted time for teams. This application provides a clear and reliable tool to organize weekly schedules, improve internal communication, and ensure better visibility of work hours.",
     "features": [
-      "Real-time collaboration dashboard",
-      "Integrated task management system",
-      "Cross-platform synchronization",
-      "Advanced analytics and reporting"
+      "Creation and management of employee profiles",
+      "Assignment of a weekly schedule per employee",
+      "Real-time modification and update of schedules",
+      "Clear weekly schedule visualization",
+      "Conflict management and schedule validation",
+      "Schedule history tracking",
+      "Real-time notifications when schedules change",
+      "Secure access based on roles (administrator, manager, employee)"
     ],
     "stack": [
-      "HTML",
-      "CSS",
+      "Vue.js",
       "JavaScript",
-      "Bootstrap",
       "Express.js",
-      "MySQL"
+      "Node.js",
+      "MongoDB",
+      "WebSocket",
+      "REST API",
+      "HTML",
+      "CSS"
     ]
   },
   {
@@ -50,32 +57,26 @@
       "CSS"
     ]
   },
-  {
-    "id": 3,
-    "title": "Employee Schedule Management Application",
-    "date": "January • 2026",
-    "description": "A web application dedicated to managing employees' schedules, allowing the creation of employee profiles and planning, modifying, and viewing their weekly work hours in a simple, centralized way.",
-    "problem": "Manual or scattered schedule management often causes errors, scheduling conflicts, and wasted time for teams. This application provides a clear and reliable tool to organize weekly schedules, improve internal communication, and ensure better visibility of work hours.",
+   {
+    "id": 1,
+    "title": "LIMEDWORKS",
+    "date": "MARCH - JUNE • 2023",
+    "description": "Web application for managing the University of Bejaia Laboratory 'LIMED'.",
+    "problem": "Managers faced challenges in handling data, labs, and teams. LIMEDWORKS provided a solution to collect, format, and report every aspect of the laboratory.",
     "features": [
-      "Creation and management of employee profiles",
-      "Assignment of a weekly schedule per employee",
-      "Real-time modification and update of schedules",
-      "Clear weekly schedule visualization",
-      "Conflict management and schedule validation",
-      "Schedule history tracking",
-      "Real-time notifications when schedules change",
-      "Secure access based on roles (administrator, manager, employee)"
+      "Real-time collaboration dashboard",
+      "Integrated task management system",
+      "Cross-platform synchronization",
+      "Advanced analytics and reporting"
     ],
     "stack": [
-      "Vue.js",
-      "JavaScript",
-      "Express.js",
-      "Node.js",
-      "MongoDB",
-      "WebSocket",
-      "REST API",
       "HTML",
-      "CSS"
+      "CSS",
+      "JavaScript",
+      "Bootstrap",
+      "Express.js",
+      "MySQL"
     ]
   }
+  
 ]
